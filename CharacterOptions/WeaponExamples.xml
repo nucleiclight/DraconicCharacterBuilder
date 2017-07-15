@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<weapon_list>
+  <weapon name="dagger">
+    <category>Light Melee</category>
+    <proficency_group>simple</proficency_group>
+    <hands>1</hands>
+    <cost>2</cost>
+    <weight>1</weight>
+    <heads>
+      <head_stats side="1">
+        <damage>1d4</damage>
+        <critical_range>19</critical_range>
+        <critical_damage>2</critical_damage>
+        <range>10</range>
+        <damage_types>
+          <damage_type>piercing</damage_type>
+          <damage_type>slashing</damage_type>
+        </damage_types>
+      </head_stats>
+    </heads>
+    <special>
+      <effect attribute="slight_of_hand:conceal" value="2"/>
+    </special>
+  </weapon>
+  
+  <weapon name="Hammer, Gnome hooked">
+    <category>Two Handed Melee</category>
+    <proficency_group>exotic</proficency_group>
+    <cost>20</cost>
+    <weight>6</weight>
+    <hands>2</hands>
+    <heads>
+      <head_stats side="1">
+        <damage>1d8</damage>
+        <critical_range>20</critical_range>
+        <critical_damage>3</critical_damage>
+        <range>0</range>
+        <damage_types>
+          <damage_type>bludgeoning</damage_type>
+        </damage_types>
+      </head_stats>
+      <head_stats side="2">
+        <damage>1d6</damage>
+        <critical_range>20</critical_range>f
+        <critical_damage>4</critical_damage>
+        <range>0</range>
+        <damage_types>
+          <damage_type>piercing</damage_type>
+        </damage_types>
+      </head_stats>
+    </heads>
+    <special>
+      <effect attribute="attack:trip" value="0"/>
+    </special>
+  </weapon>
+</weapon_list>

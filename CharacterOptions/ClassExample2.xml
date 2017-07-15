@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<player_class>
+  <player_class_name>cleric</player_class_name>
+  <skill_list>
+    <skill>concentration</skill>
+    <skill>craft</skill>
+    <skill>diplomacy</skill>
+    <skill>heal</skill>
+    <skill>knowledge:arcana</skill>
+    <skill>knowledge:history</skill>
+    <skill>knowledge:religion</skill>
+    <skill>knowledge:planes</skill>
+    <skill>spellcraft</skill>
+  </skill_list>
+  <skill_points value="2" attribute="intelligence"/>
+  <hit_die>d8</hit_die>
+  <alignment_list>
+    <alignment>LG</alignment>
+    <alignment>LN</alignment>
+    <alignment>LE</alignment>
+    <alignment>NG</alignment>
+    <alignment>NN</alignment>
+    <alignment>NE</alignment>
+    <alignment>CG</alignment>
+    <alignment>CN</alignment>
+    <alignment>CE</alignment>
+  </alignment_list>
+  <power_sources>
+    <power_source>divine</power_source>
+  </power_sources>
+  <tier>1</tier>
+  <level_list>
+    <level value="1">
+      <description>Cleric 1</description>
+      <prerequisites>
+      </prerequisites>
+      <effects>
+        <effect attribute="proficency" value="group:weapon:simple" />
+        <effect attribute="proficency" value="group:armor:light" />
+        <effect attribute="proficency" value="group:armor:medium" />
+        <effect attribute="proficency" value="group:armor:heavy" />
+        <effect attribute="proficency" value="group:armor:shield" />
+
+        <effect attribute="bab" value="0" />
+        <effect attribute="fortitude" value="2" />
+        <effect attribute="reflex" value="0" />
+        <effect attribute="will" value="2" />
+
+        <effect attribute="turn undead" value="3" />
+        <effect attribute="aura:divine" value="0" />
+        <effect attribute="language" value="1" />
+        <effect attribute="domain:[select]" />
+        <effect attribute="domain:[select]" />
+
+      </effects>
+      <spells type="cleric">
+        <spell type="standard" level="0" value="3" />
+        <spell type="standard" level="1" value="1" />
+        <spell type="bonus" level="1" value="1" />
+      </spells>
+    </level>
+  </level_list>
+</player_class>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<feat_list>
+  <feat name="Acrobatic" stacks="false">
+    <description>
+      +2 Bonus on Jump and Tumble checks
+    </description>
+    <tags>
+      <tag>general</tag>
+    </tags>
+    <prerequisites>
+    </prerequisites>
+    <effects>
+      <effect attribute="jump" value="2" />
+      <effect attribute="tumble" value="2" />
+    </effects>
+  </feat>
+</feat_list>
