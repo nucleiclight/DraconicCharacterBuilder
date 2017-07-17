@@ -12,7 +12,7 @@
     <skill>knowledge:planes</skill>
     <skill>spellcraft</skill>
   </skill_list>
-  <skill_points value="2" attribute="intelligence"/>
+  <skill_points attribute="intelligence">2</skill_points>
   <hit_die>d8</hit_die>
   <alignment_list>
     <alignment>LG</alignment>
@@ -29,34 +29,48 @@
     <power_source>divine</power_source>
   </power_sources>
   <tier>1</tier>
+  
   <level_list>
     <level value="1">
       <description>Cleric 1</description>
       <prerequisites>
       </prerequisites>
+      <proficencies>
+        <proficency type="group">simple weapons</proficency>
+        <proficency type="group">light armor</proficency>
+        <proficency type="group">medium armor</proficency>
+        <proficency type="group">heavy armor</proficency>
+        <proficency type="group">shields</proficency>
+      </proficencies>
+
+      <attacks>
+        <attack type="BAB">0</attack>
+      </attacks>
+      
+      <defenses>
+        <defense type="fortitude">2</defense>
+        <defense type="reflex">0</defense>
+        <defense type="will">2</defense>
+      </defenses>
+      
       <effects>
-        <effect attribute="proficency" value="group:weapon:simple" />
-        <effect attribute="proficency" value="group:armor:light" />
-        <effect attribute="proficency" value="group:armor:medium" />
-        <effect attribute="proficency" value="group:armor:heavy" />
-        <effect attribute="proficency" value="group:armor:shield" />
-
-        <effect attribute="bab" value="0" />
-        <effect attribute="fortitude" value="2" />
-        <effect attribute="reflex" value="0" />
-        <effect attribute="will" value="2" />
-
-        <effect attribute="turn undead" value="3" />
-        <effect attribute="aura:divine" value="0" />
-        <effect attribute="language" value="1" />
-        <effect attribute="domain:[select]" />
-        <effect attribute="domain:[select]" />
-
+        <effect attribute="turn undead">3</effect>
+        <effect attribute="aura" >divine</effect>
+        <effect attribute="language" >
+          <user_selection>language_full</user_selection>
+        </effect>
+        <effect attribute="domain">
+          <user_selection>domain</user_selection>
+        </effect>
+        <effect attribute="domain">
+          <user_selection>domain</user_selection>
+        </effect>
       </effects>
+      
       <spells type="cleric">
-        <spell type="standard" level="0" value="3" />
-        <spell type="standard" level="1" value="1" />
-        <spell type="bonus" level="1" value="1" />
+        <spell type="standard" level="0">3</spell>
+        <spell type="standard" level="1">1</spell>
+        <spell type="bonus" level="1">1</spell>
       </spells>
     </level>
   </level_list>

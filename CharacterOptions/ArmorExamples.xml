@@ -46,27 +46,27 @@
       <undon help="true">1d4+1 minutes</undon>
     </don_rates>
   </armor>
-  <armor name="shield">
+  <armor name="shield, light steel">
     <proficency_group>Heavy</proficency_group>
-    <cost>1500</cost>
-    <armor_bonus>8</armor_bonus>
-    <max_dexterity_bonus>1</max_dexterity_bonus>
-    <armor_check_penalty>-6</armor_check_penalty>
-    <arcane_spell_failure>50</arcane_spell_failure>
+    <cost>9</cost>
+    <armor_bonus>1</armor_bonus>
+    <max_dexterity_bonus></max_dexterity_bonus>
+    <armor_check_penalty>-1</armor_check_penalty>
+    <arcane_spell_failure>5</arcane_spell_failure>
     <speed_penalties>
       <base_speed value="30">
-        <max_speed>20</max_speed>
-        <run_multiplier>3</run_multiplier>
+        <max_speed>30</max_speed>
+        <run_multiplier>4</run_multiplier>
       </base_speed>>
       <base_speed value="20">
-        <max_speed>15</max_speed>
-        <run_multiplier>3</run_multiplier>
+        <max_speed>20</max_speed>
+        <run_multiplier>4</run_multiplier>
       </base_speed>>
     </speed_penalties>
     <don_rates>
-      <don help="required">4 minutes</don>
-      <hastily help="true">4 minutes</hastily>
-      <undon help="true">1d4+1 minutes</undon>
+      <don help="required">1 move</don>
+      <hastily help="true"></hastily>
+      <undon help="true">1 move</undon>
     </don_rates>
   </armor>
 

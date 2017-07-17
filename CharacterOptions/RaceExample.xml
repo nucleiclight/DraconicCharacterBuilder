@@ -2,31 +2,63 @@
 <player_race>
   <player_race_name>dwarf</player_race_name>
   <effects>
-    <effect attribute="consitution" value="2" />
-    <effect attribute="charisma" value="-2" />
+    <effect attribute="consitution" >2</effect>
+    <effect attribute="charisma" >-2</effect>
 
-    <effect attribute="size" value="medium" />
-    <effect attribute="speed" value="20" />
+    <effect attribute="size" >medium</effect>
+    <effect attribute="speed" >20</effect>
 
-    <effect attribute="vision" value="darkvision" />
+    <effect attribute="vision" >darkvision</effect>
 
-    <effect attribute="stonecunning" value="0" />
-    <effect attribute="weapon familiarity" value="dwarven waraxe,dwarven urgosh" />
-    <effect attribute="stability" value="0" />
-    
-    <effect attribute="save:poison" value="2" />
-    <effect attribute="save:spell" value="2" />
-    <effect attribute="save:spell-like" value="2" />
-    
-    <effect attribute="attack:orc" value="1" />
-    <effect attribute="attack:goblinoid" value="1" />
-    
-    <effect attribute="defense:dodge:giant" value="4" />
-    
-    <effect attribute="appraise:racial:stone" value="2" />
-    <effect attribute="appraise:racial:metal" value="2" />
-    <effect attribute="craft:racial:stone" value="2" />
-    <effect attribute="craft:racial:metal" value="2" />
+    <effect attribute="stonecunning" />
+    <effect attribute="weapon familiarity" >dwarven waraxe</effect>
+    <effect attribute="weapon familiarity" >dwarven urgosh</effect>
+    <effect attribute="stability" />
+
+    <effect attribute="save" >
+      2
+      <specialization>poison</specialization>
+    </effect>
+    <effect attribute="save">
+      2
+      <specialization>spell</specialization>
+    </effect>
+    <effect attribute="save">
+      2
+      <specialization>spell-like</specialization>
+    </effect>
+
+    <effect attribute="attack">
+      1
+      <specialization>orc</specialization>
+    </effect>
+    <effect attribute="attack">
+      1
+      <specialization>goblinoid</specialization>
+    </effect>
+
+    <effect attribute="defense" type="dodge">
+     4 
+      <specialization>giant</specialization>
+    </effect>
+
+    <effect attribute="appraise" >
+      2
+      <specialization>stone</specialization>
+    </effect>
+    <effect attribute="appraise" >
+      2
+      <specialization>metal</specialization>
+    </effect>
+    <effect attribute="craft" >
+      2
+      <specialization>stone</specialization>
+    </effect>
+    <effect attribute="craft" >
+      2
+      <specialization>metal</specialization>
+    </effect>
+
   </effects>
   <spells />
   <languages>

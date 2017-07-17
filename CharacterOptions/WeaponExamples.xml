@@ -19,7 +19,9 @@
       </head_stats>
     </heads>
     <special>
-      <effect attribute="slight_of_hand:conceal" value="2"/>
+      <effect attribute="slight_of_hand">2
+        <specialization>conceal</specialization>
+      </effect>
     </special>
   </weapon>
   
@@ -41,7 +43,7 @@
       </head_stats>
       <head_stats side="2">
         <damage>1d6</damage>
-        <critical_range>20</critical_range>f
+        <critical_range>20</critical_range>
         <critical_damage>4</critical_damage>
         <range>0</range>
         <damage_types>
@@ -50,7 +52,9 @@
       </head_stats>
     </heads>
     <special>
-      <effect attribute="attack:trip" value="0"/>
+      <effect attribute="attack">
+        <specialization>trip</specialization>
+      </effect>
     </special>
   </weapon>
 </weapon_list>

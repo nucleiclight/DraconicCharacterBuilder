@@ -51,6 +51,7 @@
     <Content Include="FeatExamples.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="tierList.txt" />
     <Content Include="WeaponExamples.xml" />
   </ItemGroup>
   <ItemGroup>

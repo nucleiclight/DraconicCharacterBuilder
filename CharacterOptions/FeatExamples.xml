@@ -10,8 +10,8 @@
     <prerequisites>
     </prerequisites>
     <effects>
-      <effect attribute="jump" value="2" />
-      <effect attribute="tumble" value="2" />
+      <effect attribute="jump" >2</effect>
+      <effect attribute="tumble" >2</effect>
     </effects>
   </feat>
 </feat_list>
