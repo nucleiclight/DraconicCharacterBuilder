@@ -41,8 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharacterAttributeHitPoints.cs" />
+    <Compile Include="CharacterAttributeModifier.cs" />
     <Compile Include="CharacterCoreAttribute.cs" />
     <Compile Include="CharacterDerivedAttribute.cs" />
+    <Compile Include="CharacterRecord.cs" />
+    <Compile Include="CharacterSkill.cs" />
     <Compile Include="CharacterStatistic.cs" />
     <Compile Include="IDerivedModifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

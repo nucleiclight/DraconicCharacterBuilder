@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <armor_list>
   <armor name="Padded">
-    <proficency_group>light</proficency_group>
+    <proficency_group>light armor</proficency_group>
     <cost>5</cost>
     <armor_bonus>1</armor_bonus>
     <max_dexterity_bonus>8</max_dexterity_bonus>
@@ -24,7 +24,7 @@
     </don_rates>
   </armor>
   <armor name="Full Plate">
-    <proficency_group>Heavy</proficency_group>
+    <proficency_group>heavy armor</proficency_group>
     <cost>1500</cost>
     <armor_bonus>8</armor_bonus>
     <max_dexterity_bonus>1</max_dexterity_bonus>
@@ -46,8 +46,8 @@
       <undon help="true">1d4+1 minutes</undon>
     </don_rates>
   </armor>
-  <armor name="shield, light steel">
-    <proficency_group>Heavy</proficency_group>
+  <armor name="Shield, Light Steel">
+    <proficency_group>shields</proficency_group>
     <cost>9</cost>
     <armor_bonus>1</armor_bonus>
     <max_dexterity_bonus></max_dexterity_bonus>

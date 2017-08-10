@@ -101,10 +101,21 @@ namespace ConfigurationData
         public static readonly string PrerequisiteList = "prerequisites";
         public static readonly string PrerequsiteName = "prerequisite";
         public static readonly string EffectList = "effects";
-        public static readonly string EffectName = "effect";
-        public static readonly string AttributeName = "attribute";
-        public static readonly string AttributeModifier = "value";
         public static readonly string AllowsStacking = "stacks";
 
     }
+
+    public static class LookupNames
+    {
+        public static readonly string EffectName = "effect";
+        public static readonly string AttributeName = "attribute";
+        public static readonly string AttributeModifier = "value";
+
+    }
+
+    public static class ModifierTypeBonusSources
+    {
+        public static readonly string Untyped = "Untyped";
+    }
 }
+;

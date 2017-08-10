@@ -2,7 +2,7 @@
 <weapon_list>
   <weapon name="dagger">
     <category>Light Melee</category>
-    <proficency_group>simple</proficency_group>
+    <proficency_group>simple weapons</proficency_group>
     <hands>1</hands>
     <cost>2</cost>
     <weight>1</weight>
@@ -27,7 +27,7 @@
   
   <weapon name="Hammer, Gnome hooked">
     <category>Two Handed Melee</category>
-    <proficency_group>exotic</proficency_group>
+    <proficency_group>exotic weapons</proficency_group>
     <cost>20</cost>
     <weight>6</weight>
     <hands>2</hands>
